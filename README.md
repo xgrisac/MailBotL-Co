@@ -1,4 +1,4 @@
-# MailBotLocaliza&Co 💚
+# MailBot 💚
 
 Automatiza o envio de e-mails de confirmação de veículos para fornecedores, consolidando múltiplas placas em um único e-mail por destinatário — solução desenvolvida para uma demanda real de trabalho na Localiza.
 
