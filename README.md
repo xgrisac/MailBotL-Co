@@ -1,6 +1,6 @@
 # MailBot 💚
 
-Automatiza o envio de e-mails de confirmação de veículos para fornecedores, consolidando múltiplas placas em um único e-mail por destinatário — solução desenvolvida para uma demanda real de trabalho na Localiza.
+Automatiza o envio de e-mails de confirmação de veículos para fornecedores, consolidando múltiplas placas em um único e-mail por destinatário — solução desenvolvida para uma demanda real de trabalho na empresa em que atuo.
 
 ## Funcionalidades
 
@@ -38,4 +38,3 @@ Automatiza o envio de e-mails de confirmação de veículos para fornecedores, c
 >
 > Essas alterações garantem a formalização adequada das comunicações e o alinhamento com as diretrizes de segurança e conformidade da organização.
 >
-> ![image](https://github.com/user-attachments/assets/81aab36f-bdd1-4e5c-8d04-97ede65e14ad)
