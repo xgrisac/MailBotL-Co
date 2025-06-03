@@ -26,7 +26,7 @@ for index, row in agrupamento.iterrows():
         modelos = row['modelo']
 
         msg = MIMEMultipart('related')
-        msg['Subject'] = 'Confirmação de veículos GF - Localiza'
+        msg['Subject'] = 'Confirmação de veículos'
         msg['From'] = 'xgrisac@gmail.com'
         msg['To'] = email
 
@@ -56,12 +56,12 @@ for index, row in agrupamento.iterrows():
                 <tr>
                     <td><img src="cid:assinatura_logo" width="150"/></td>
                     <td style="padding-left:10px">
-                        <p><strong style="color:#000">Isac Ribeiro</strong><br>
-                        <span style="color:#00704A">Logística – Desativação CMDLS<br>
+                        <p><strong style="color:#000">Seu nome</strong><br>
+                        <span style="color:#00704A">Seu setor<br>
                         +55 (31) 3247-4248</span><br><br>
-                        🌐 <a href="https://www.localiza.com" style="text-decoration:none; color:#00704A;">Site</a> &nbsp;&nbsp;
-                        📷 <a href="https://www.instagram.com/localiza" style="text-decoration:none; color:#00704A;">Instagram</a> &nbsp;&nbsp;
-                        💼 <a href="https://www.linkedin.com/company/localiza" style="text-decoration:none; color:#00704A;">LinkedIn</a>
+                        🌐 <a href="URL" style="text-decoration:none; color:#00704A;">Site</a> &nbsp;&nbsp;
+                        📷 <a href="URL" style="text-decoration:none; color:#00704A;">Instagram</a> &nbsp;&nbsp;
+                        💼 <a href="URL" style="text-decoration:none; color:#00704A;">LinkedIn</a>
                         </p>
                     </td>
                 </tr>
@@ -73,7 +73,7 @@ for index, row in agrupamento.iterrows():
         msg.attach(MIMEText(conteudo_html, 'html'))
 
         # Anexa imagem
-        with open("./logolocaliza.png", 'rb') as img:
+        with open("./logodaempresa", 'rb') as img:
             imagem = MIMEImage(img.read())
             imagem.add_header('Content-ID', '<assinatura_logo>')
             msg.attach(imagem)
