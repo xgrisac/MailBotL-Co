@@ -58,7 +58,7 @@ for index, row in agrupamento.iterrows():
                     <td style="padding-left:10px">
                         <p><strong style="color:#000">Seu nome</strong><br>
                         <span style="color:#00704A">Seu setor<br>
-                        +55 (31) 3247-4248</span><br><br>
+                        +55 (31) 0000-0000</span><br><br>
                         🌐 <a href="URL" style="text-decoration:none; color:#00704A;">Site</a> &nbsp;&nbsp;
                         📷 <a href="URL" style="text-decoration:none; color:#00704A;">Instagram</a> &nbsp;&nbsp;
                         💼 <a href="URL" style="text-decoration:none; color:#00704A;">LinkedIn</a>
@@ -73,7 +73,7 @@ for index, row in agrupamento.iterrows():
         msg.attach(MIMEText(conteudo_html, 'html'))
 
         # Anexa imagem
-        with open("./logodaempresa", 'rb') as img:
+        with open("URL", 'rb') as img:
             imagem = MIMEImage(img.read())
             imagem.add_header('Content-ID', '<assinatura_logo>')
             msg.attach(imagem)
